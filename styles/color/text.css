@@ -1,0 +1,65 @@
+@theme inline {
+    /* Text Colors */
+    --color-text-primary: var(--text-primary);
+    --color-text-secondary: var(--text-secondary);
+    --color-text-tertiary: var(--text-tertiary);
+    --color-text-disabled: var(--text-disabled);
+    --color-text-primary-inv: var(--text-primary-inv);
+    --color-text-primary-sta: var(--text-primary-sta);
+    --color-text-primary-ist: var(--text-primary-ist);
+    --color-text-secondary-inv: var(--text-secondary-inv);
+    --color-text-brand: var(--text-brand);
+    --color-text-information: var(--text-information);
+    --color-text-success: var(--text-success);
+    --color-text-error: var(--text-error);
+    --color-text-warning: var(--text-warning);
+    --color-text-alpha: var(--text-alpha);
+    --color-text-alpha-bold-sta: var(--text-alpha-bold-sta);
+    --color-text-label: var(--text-label);
+    --color-text-caret: var(--text-caret);
+    --color-text-subtle: var(--text-subtle);
+}
+
+:root {
+    /* Text Colors - Light Mode */
+    --text-primary: var(--gray-100);
+    --text-secondary: var(--gray-60);
+    --text-tertiary: var(--gray-40);
+    --text-disabled: var(--black-a25);
+    --text-primary-inv: var(--gray-1);
+    --text-primary-sta: var(--gray-1);
+    --text-primary-ist: var(--gray-100);
+    --text-secondary-inv: var(--gray-40);
+    --text-brand: var(--yellow-50);
+    --text-information: var(--blue-40);
+    --text-success: var(--green-70);
+    --text-error: var(--red-50);
+    --text-warning: var(--orange-60);
+    --text-alpha: var(--black-a55);
+    --text-alpha-bold-sta: var(--white-a70);
+    --text-label: var(--gray-60);
+    --text-caret: var(--yellow-50);
+    --text-subtle: var(--gray-40);
+}
+
+.dark {
+    /* Text Colors - Dark Mode */
+    --text-primary: var(--gray-1);
+    --text-secondary: var(--gray-40);
+    --text-tertiary: var(--gray-60);
+    --text-disabled: var(--white-a25);
+    --text-primary-inv: var(--gray-100);
+    --text-primary-sta: var(--gray-1);
+    --text-primary-ist: var(--gray-100);
+    --text-secondary-inv: var(--gray-60);
+    --text-brand: var(--yellow-50);
+    --text-information: var(--blue-20);
+    --text-success: var(--green-40);
+    --text-error: var(--red-20);
+    --text-warning: var(--orange-20);
+    --text-alpha: var(--white-a45);
+    --text-alpha-bold-sta: var(--white-a70);
+    --text-label: var(--gray-40);
+    --text-caret: var(--yellow-50);
+    --text-subtle: var(--gray-40);
+}

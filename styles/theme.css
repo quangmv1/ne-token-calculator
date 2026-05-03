@@ -1,0 +1,24 @@
+@import './typography.css';
+@import './color.css';
+/* @import './size.css'; */
+@import './border.css';
+@import './icons.css';
+/* @import './shadow.css'; */
+/* @import './animate.css'; */
+
+@theme {
+  --radius-px: 1px;
+  --radius-xs: 2px;
+
+  /* responsive desktop first */
+  --breakpoint-desktopLg: 1601px;
+  --breakpoint-desktop: 1441px;
+  --breakpoint-ipadPro: 1367px;
+  --breakpoint-ipad: 1024px;
+  --breakpoint-phone: 768px;
+
+
+  /* accordion */
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+}

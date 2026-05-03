@@ -1,0 +1,56 @@
+
+@theme inline {
+    /* Icon Colors */
+    --color-icon-primary: var(--icon-primary);
+    --color-icon-secondary: var(--icon-secondary);
+    --color-icon-tertiary: var(--icon-tertiary);
+    --color-icon-disabled: var(--icon-disabled);
+    --color-icon-primary-inv: var(--icon-primary-inv);
+    --color-icon-secondary-inv: var(--icon-secondary-inv);
+    --color-icon-primary-sta: var(--icon-primary-sta);
+    --color-icon-primary-ist: var(--icon-primary-ist);
+    --color-icon-brand: var(--icon-brand);
+    --color-icon-information: var(--icon-information);
+    --color-icon-success: var(--icon-success);
+    --color-icon-error: var(--icon-error);
+    --color-icon-warning: var(--icon-warning);
+    --color-icon-alpha: var(--icon-alpha);
+    --color-icon-alpha-bold-sta: var(--icon-alpha-bold-sta);
+}
+
+:root {
+    /* Icon Colors - Light Mode */
+    --icon-primary: var(--gray-95);
+    --icon-secondary: var(--gray-50);
+    --icon-tertiary: var(--gray-40);
+    --icon-disabled: var(--black-a20);
+    --icon-primary-inv: var(--gray-5);
+    --icon-secondary-inv: var(--gray-60);
+    --icon-primary-sta: var(--gray-5);
+    --icon-primary-ist: var(--gray-95);
+    --icon-brand: var(--yellow-60);
+    --icon-information: var(--blue-30);
+    --icon-success: var(--green-60);
+    --icon-error: var(--red-40);
+    --icon-warning: var(--orange-50);
+    --icon-alpha: var(--black-a50);
+    --icon-alpha-bold-sta: var(--white-a65);
+}
+.dark {
+    /* Icon Colors - Dark Mode */
+    --icon-primary: var(--gray-5);
+    --icon-secondary: var(--gray-50);
+    --icon-tertiary: var(--gray-60);
+    --icon-disabled: var(--white-a20);
+    --icon-primary-inv: var(--gray-95);
+    --icon-secondary-inv: var(--gray-40);
+    --icon-primary-sta: var(--gray-5);
+    --icon-primary-ist: var(--gray-95);
+    --icon-brand: var(--yellow-50);
+    --icon-information: var(--blue-30);
+    --icon-success: var(--green-60);
+    --icon-error: var(--red-40);
+    --icon-warning: var(--orange-50);
+    --icon-alpha: var(--white-a40);
+    --icon-alpha-bold-sta: var(--white-a65);
+}

@@ -1,0 +1,53 @@
+@theme inline {
+    /* Misc Hover Colors */
+    --color-misc-hover-base: var(--misc-hover-base);
+    --color-misc-hover-subtle: var(--misc-hover-subtle);
+    --color-misc-hover-bold: var(--misc-hover-bold);
+    --color-misc-hover-bold-sta: var(--misc-hover-bold-sta);
+    
+    /* Misc Skeleton Colors */
+    --color-misc-skeleton-fill: var(--misc-skeleton-fill);
+    --color-misc-skeleton-item: var(--misc-skeleton-item);
+    
+    /* Misc Scrim Colors */
+    --color-misc-scrim-base: var(--misc-scrim-base);
+    
+    /* Misc Scroll Colors */
+    --color-misc-scroll-bar: var(--misc-scroll-bar);
+}
+
+:root {
+    /* Misc Hover - Dark Mode */
+    --misc-hover-base: var(--black-a5);
+    --misc-hover-subtle: var(--black-a2);
+    --misc-hover-bold: var(--black-a15);
+    --misc-hover-bold-sta: var(--white-a20);
+    
+    /* Misc Skeleton - Dark Mode */
+    --misc-skeleton-fill: var(--black-a5);
+    --misc-skeleton-item: var(--black-a10);
+    
+    /* Misc Scrim - Dark Mode */
+    --misc-scrim-base: var(--black-a80);
+    
+    /* Misc Scroll - Dark Mode */
+    --misc-scroll-bar: var(--black-a10);
+}
+
+.dark {
+    /* Misc Hover - Light Mode */
+    --misc-hover-base: var(--white-a10);
+    --misc-hover-subtle: var(--white-a3);
+    --misc-hover-bold: var(--white-a20);
+    --misc-hover-bold-sta: var(--white-a20);
+    
+    /* Misc Skeleton - Light Mode */
+    --misc-skeleton-fill: var(--white-a5);
+    --misc-skeleton-item: var(--white-a10);
+    
+    /* Misc Scrim - Light Mode */
+    --misc-scrim-base: var(--black-a80);
+    
+    /* Misc Scroll - Light Mode */
+    --misc-scroll-bar: var(--white-a10);
+}

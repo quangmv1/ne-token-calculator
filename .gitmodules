@@ -1,0 +1,3 @@
+[submodule "packages/sdk-hyper-ui"]
+	path = packages/sdk-hyper-ui
+	url = git@github.com:coin98/sdk-hyper-ui.git

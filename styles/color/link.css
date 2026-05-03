@@ -1,0 +1,17 @@
+@theme inline {
+    /* Link Colors */
+    --color-link-inactive: var(--link-inactive);
+    --color-link-active: var(--link-active);
+}
+
+:root {
+    /* Link Colors - Light Mode */
+    --link-inactive: var(--yellow-70);
+    --link-active: var(--yellow-50);
+}
+
+.dark {
+    /* Link Colors - Dark Mode */
+    --link-inactive: var(--yellow-50);
+    --link-active: var(--yellow-70);
+}

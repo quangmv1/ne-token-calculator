@@ -1,0 +1,50 @@
+@theme inline {
+    /* border */
+    --color-border-alpha: var(--border-alpha);
+    --color-border-alpha-subtle: var(--border-alpha-subtle);
+    --color-border-alpha-bold: var(--border-alpha-bold);
+    --color-border-alpha-sta: var(--border-alpha-sta);
+    --color-border-alpha-inv: var(--border-alpha-inv);
+    --color-border-alpha-lst: var(--border-alpha-lst);
+    --color-border-active: var(--border-active);
+
+     /* Border Primary Gradient */
+    --color-border-grad-start: var(--border-grad-start);
+    --color-border-grad-mid-1: var(--border-grad-mid-1);
+    --color-border-grad-mid-2: var(--border-grad-mid-2);
+    --color-border-grad-end: var(--border-grad-end);
+}
+
+:root {
+     /* Border - Light Mode */
+     --border-alpha: var(--black-a5);
+     --border-alpha-subtle: var(--black-a3);
+     --border-alpha-bold: var(--black-a8);
+     --border-alpha-sta: var(--white-a6);
+     --border-alpha-inv: var(--white-a6);
+     --border-alpha-lst: var(--black-a5);
+     --border-active: var(--gray-95);
+     
+     /* Border Primary Gradient */
+     --border-grad-start: var(--black-a3);
+     --border-grad-mid-1: var(--black-a8);
+     --border-grad-mid-2: var(--black-a5);
+     --border-grad-end: var(--black-a3);
+}
+
+.dark {
+    /* Border - Dark Mode */
+    --border-alpha: var(--white-a6);
+    --border-alpha-subtle: var(--white-a4);
+    --border-alpha-bold: var(--white-a10);
+    --border-alpha-sta: var(--white-a6);
+    --border-alpha-inv: var(--black-a5);
+    --border-alpha-lst: var(--black-a5);
+    --border-active: var(--gray-5);
+    
+    /* Border Primary Gradient */
+    --border-grad-start: var(--white-a8);
+    --border-grad-mid-1: var(--white-a4);
+    --border-grad-mid-2: var(--white-a1);
+    --border-grad-end: var(--white-a8);
+}
