@@ -9,7 +9,11 @@ import { Icon } from "@/components/Icon";
 import { OverviewContent } from "./components/OverviewContent";
 import { PricingContent } from "./components/PricingContent";
 
-export default function HomePage() {
+interface HomePageProps {
+  onLogout: () => void;
+}
+
+export default function HomePage({ onLogout }: HomePageProps) {
   const [currentTab, setCurrentTab] = useState("overview");
 
   const dashboardTabs = [
@@ -35,6 +39,7 @@ export default function HomePage() {
         <Button
           type="secondary"
           className="!min-h-0 !py-2.5 !px-6 !rounded-xl"
+          onClick={onLogout}
         >
           <Icon name="ne-ic-logout" />
           <span className="ml-3 font-bold">Đăng xuất</span>

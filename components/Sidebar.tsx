@@ -9,6 +9,7 @@ const menuItems = [
   { icon: "ne-ic-home", label: "Home", href: "/" },
   { icon: "ne-ic-asset-statistics", label: "Calculator", href: "/calculator" },
   { icon: "ne-ic-library", label: "Documents", href: "/docs" },
+  { icon: "ne-ic-badge-progress", label: "Playground", href: "/chat" },
 ];
 
 export function Sidebar() {
