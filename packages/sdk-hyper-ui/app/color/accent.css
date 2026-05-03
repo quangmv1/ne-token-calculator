@@ -1,0 +1,26 @@
+@theme inline {
+    /* Accent Colors */
+    --color-accent-branding: var(--accent-branding);
+    --color-accent-informative: var(--accent-informative);
+    --color-accent-succeed: var(--accent-succeed);
+    --color-accent-critical: var(--accent-critical);
+    --color-accent-warning: var(--accent-warning);
+}
+
+:root {
+    /* Accent Colors - Light Mode */
+    --accent-branding: var(--brand-50);
+    --accent-informative: var(--blue-50);
+    --accent-succeed: var(--green-70);
+    --accent-critical: var(--red-50);
+    --accent-warning: var(--orange-60);
+}
+
+.dark {
+   /* Accent Colors - Dark Mode */
+   --accent-branding: var(--brand-40);
+   --accent-informative: var(--blue-40);
+   --accent-succeed: var(--green-60);
+   --accent-critical: var(--red-40);
+   --accent-warning: var(--orange-50);
+}

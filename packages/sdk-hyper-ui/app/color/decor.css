@@ -1,0 +1,32 @@
+@theme inline {
+    /* Decor Glow Colors */
+    --color-glow-center: var(--glow-center);
+    --color-glow-mid: var(--glow-mid);
+    --color-glow-edge: var(--glow-edge);
+    
+    /* Decor Shadow Colors */
+    --color-shadow-inner: var(--shadow-inner);
+    --color-shadow-outer: var(--shadow-outer);
+}
+
+:root {
+    /* Decor Glow - Light Mode */
+    --glow-center: var(--yellow-50);
+    --glow-mid: var(--yellow-30);
+    --glow-edge: var(--yellow-5);
+    
+    /* Decor Shadow - Light Mode */
+    --shadow-inner: var(--black-a3);
+    --shadow-outer: var(--black-a2);
+}
+
+.dark {
+    /* Decor Glow - Dark Mode */
+    --glow-center: var(--yellow-50);
+    --glow-mid: var(--yellow-80);
+    --glow-edge: var(--yellow-100);
+    
+    /* Decor Shadow - Dark Mode */
+    --shadow-inner: var(--white-a0);
+    --shadow-outer: var(--white-a0);
+}

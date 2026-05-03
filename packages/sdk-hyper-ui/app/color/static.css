@@ -1,0 +1,29 @@
+@theme inline {
+    /* Static Colors */
+    --color-static-brand: var(--static-brand);
+    --color-static-white: var(--static-white);
+    --color-static-black: var(--static-black);
+    --color-static-green: var(--static-green);
+    --color-static-red: var(--static-red);
+    --color-static-gray: var(--static-gray);
+}
+
+:root {
+    /* Static Colors - Light Mode */
+    --static-brand: var(--yellow-50);
+    --static-white: var(--white-a100);
+    --static-black: var(--black-a100);
+    --static-green: var(--green-60);
+    --static-red: var(--red-40);
+    --static-gray: var(--gray-60);
+}
+
+.dark {
+    /* Static Colors - Dark Mode (same as light mode for static colors) */
+    --static-brand: var(--yellow-50);
+    --static-white: var(--white-a100);
+    --static-black: var(--black-a100);
+    --static-green: var(--green-60);
+    --static-red: var(--red-40);
+    --static-gray: var(--gray-60);
+}

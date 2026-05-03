@@ -1,0 +1,316 @@
+@import "tailwindcss";
+
+
+@theme {
+  /* Font Size Variables */
+  --text-font-size-8: 8px;
+  --text-font-size-10: 10px;
+  --text-font-size-12: 12px;
+  --text-font-size-13: 13px;
+  --text-font-size-14: 14px;
+  --text-font-size-15: 15px;
+  --text-font-size-16: 16px;
+  --text-font-size-18: 18px;
+  --text-font-size-20: 20px;
+  --text-font-size-24: 24px;
+  --text-font-size-28: 28px;
+  --text-font-size-32: 32px;
+  --text-font-size-40: 40px;
+  --text-font-size-48: 48px;
+  --text-font-size-56: 56px;
+  --text-font-size-64: 64px;
+  --text-font-size-80: 80px;
+  --text-font-size-96: 96px;
+  --text-font-size-112: 112px;
+  --text-font-size-128: 128px;
+
+  /* Font Weight Variables */
+  --font-weight-regular: 300;
+  --font-weight-medium: 400;
+  --font-weight-semibold: 500;
+  --font-weight-bold: 600;
+
+  /* line height */
+  --line-height-default: auto;
+  --line-height-tight: 120%;
+  --line-height-snug: 125%;
+  --line-height-normal: 150%;
+
+
+  /* letter spacing */
+  --tracking-letter-spacing-default: 0;
+  --tracking-letter-spacing-dense: -0.2;
+  --tracking-letter-spacing-denser: -0.5;
+}
+
+@layer utilities {
+  /* Custom utility classes */
+
+  .typo-ui-tiny {
+    font-size: var(--text-font-size-8);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+
+  }
+
+  .typo-ui-tiny-strong {
+    font-size: var(--text-font-size-8);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+
+  }
+
+  .typo-ui-3xsmall {
+    font-size: var(--text-font-size-10);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+
+  }
+
+  .typo-ui-3xsmall-strong {
+    font-size: var(--text-font-size-10);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+  }
+
+  .typo-ui-2xsmall {
+    font-size: var(--text-font-size-12);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+
+  }
+
+  .typo-ui-2xsmall-strong {
+    font-size: var(--text-font-size-12);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+
+  }
+
+  .typo-ui-xsmall {
+    font-size: var(--text-font-size-13);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+
+  }
+
+  .typo-ui-xsmall-strong {
+    font-size: var(--text-font-size-13);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+  }
+
+  .typo-ui-small {
+    font-size: var(--text-font-size-14);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+
+  }
+
+  .typo-ui-small-strong {
+    font-size: var(--text-font-size-14);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+
+  }
+
+  .typo-ui-medium {
+    font-size: var(--text-font-size-15);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+
+  }
+
+  .typo-ui-medium-strong {
+    font-size: var(--text-font-size-15);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+
+  }
+
+  .typo-ui-large {
+    font-size: var(--text-font-size-16);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+
+  }
+
+  .typo-ui-large-strong {
+    font-size: var(--text-font-size-16);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+
+  }
+
+  .typo-ui-xlarge-strong {
+    font-size: var(--text-font-size-18);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+  }
+
+  .typo-ui-2xlarge {
+    font-size: var(--text-font-size-20);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+  }
+
+  .typo-ui-2xlarge-strong {
+    font-size: var(--text-font-size-20);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+  }
+
+  .typo-ui-3xlarge {
+    font-size: var(--text-font-size-24);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+  }
+
+  .typo-ui-3xlarge-strong {
+    font-size: var(--text-font-size-24);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-snug);
+    letter-spacing: var(--tracking-letter-spacing-default);
+  }
+
+  /* Title Typography Classes */
+  .typo-title-tiny {
+    font-size: var(--text-font-size-14);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-tight);
+    letter-spacing: var(--tracking-letter-spacing-default);
+  }
+
+  .typo-title-xsmall {
+    font-size: var(--text-font-size-18);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-tight);
+    letter-spacing: var(--tracking-letter-spacing-default);
+  }
+
+  .typo-title-small {
+    font-size: var(--text-font-size-20);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-normal);
+    letter-spacing: var(--tracking-letter-spacing-default);
+  }
+
+  .typo-title-medium {
+    font-size: var(--text-font-size-24);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-normal);
+    letter-spacing: var(--tracking-letter-spacing-dense);
+  }
+
+  .typo-title-large {
+    font-size: var(--text-font-size-28);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-normal);
+    letter-spacing: var(--tracking-letter-spacing-dense);
+  }
+
+  .typo-title-xlarge {
+    font-size: var(--text-font-size-32);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-normal);
+    letter-spacing: var(--tracking-letter-spacing-denser);
+  }
+
+
+  /* Thumbnail Name Class */
+  .thumb-name-12 {
+    font-size: var(--text-font-size-8);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--tracking-letter-spacing-default);
+    line-height: var(--line-height-tight);
+  }
+
+  .thumb-name-16 {
+    font-size: var(--text-font-size-10);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--tracking-letter-spacing-default);
+    line-height: var(--line-height-tight);
+  }
+
+  .thumb-name-20 {
+    font-size: var(--text-font-size-12);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--tracking-letter-spacing-default);
+    line-height: var(--line-height-tight);
+  }
+
+  .thumb-name-24 {
+    font-size: var(--text-font-size-14);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--tracking-letter-spacing-default);
+    line-height: var(--line-height-tight);
+  }
+
+  .thumb-name-32 {
+    font-size: var(--text-font-size-16);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--tracking-letter-spacing-default);
+    line-height: var(--line-height-tight);
+  }
+
+  .thumb-name-40 {
+    font-size: var(--text-font-size-20);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--tracking-letter-spacing-default);
+    line-height: var(--line-height-tight);
+  }
+
+  .thumb-name-48 {
+    font-size: var(--text-font-size-24);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--tracking-letter-spacing-default);
+    line-height: var(--line-height-tight);
+  }
+
+  .thumb-name-56 {
+    font-size: var(--text-font-size-24);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--tracking-letter-spacing-default);
+    line-height: var(--line-height-tight);
+  }
+
+  .thumb-name-64 {
+    font-size: var(--text-font-size-28);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--tracking-letter-spacing-default);
+    line-height: var(--line-height-tight);
+  }
+
+  .thumb-name-80 {
+    font-size: var(--text-font-size-32);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--tracking-letter-spacing-default);
+    line-height: var(--line-height-tight);
+  }
+
+  .thumb-name-96 {
+    font-size: var(--text-font-size-40);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--tracking-letter-spacing-default);
+    line-height: var(--line-height-tight);
+  }
+
+}

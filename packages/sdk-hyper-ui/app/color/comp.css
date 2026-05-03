@@ -1,0 +1,564 @@
+@theme inline {
+    /* Component Avatar Colors */
+    --color-avatar-fill-gray: var(--avatar-fill-gray);
+    --color-avatar-fill-red: var(--avatar-fill-red);
+    --color-avatar-fill-orange: var(--avatar-fill-orange);
+    --color-avatar-fill-yellow: var(--avatar-fill-yellow);
+    --color-avatar-fill-neon-green: var(--avatar-fill-neon-green);
+    --color-avatar-fill-green: var(--avatar-fill-green);
+    --color-avatar-fill-teal: var(--avatar-fill-teal);
+    --color-avatar-fill-sky-blue: var(--avatar-fill-sky-blue);
+    --color-avatar-fill-blue: var(--avatar-fill-blue);
+    --color-avatar-fill-purple: var(--avatar-fill-purple);
+    --color-avatar-fill-pink: var(--avatar-fill-pink);
+    --color-avatar-text: var(--avatar-text);
+
+    /* Component Badge Colors */
+    --color-badge-fill: var(--badge-fill);
+    --color-badge-ekyc-fill: var(--badge-ekyc-fill);
+    --color-badge-shield-fill: var(--badge-shield-fill);
+    --color-badge-mark: var(--badge-mark);
+    --color-badge-position-text: var(--badge-position-text);
+    --color-badge-position-long: var(--badge-position-long);
+    --color-badge-position-short: var(--badge-position-short);
+    
+    /* Component Button Primary Colors */
+    --color-button-primary-text: var(--button-primary-text);
+    --color-button-primary-icon: var(--button-primary-icon);
+    --color-button-primary-fill: var(--button-primary-fill);
+    --color-button-primary-fill-active: var(--button-primary-fill-active);
+    
+    /* Component Button Secondary Colors */
+    --color-button-secondary-text: var(--button-secondary-text);
+    --color-button-secondary-icon: var(--button-secondary-icon);
+    --color-button-secondary-fill: var(--button-secondary-fill);
+    --color-button-secondary-fill-active: var(--button-secondary-fill-active);
+
+    /* Component Button Secondary-sta Colors */
+    --color-button-secondary-sta-text: var(--button-secondary-sta-text);
+    --color-button-secondary-sta-icon: var(--button-secondary-sta-icon);
+    --color-button-secondary-sta-fill: var(--button-secondary-sta-fill);
+    --color-button-secondary-sta-fill-active: var(--button-secondary-sta-fill-active);
+
+    /* Component Button Secondary-inv Colors */
+    --color-button-secondary-inv-text: var(--button-secondary-inv-text);
+    --color-button-secondary-inv-icon: var(--button-secondary-inv-icon);
+    --color-button-secondary-inv-fill: var(--button-secondary-inv-fill);
+    --color-button-secondary-inv-fill-active: var(--button-secondary-inv-fill-active);
+
+    /* Component Button Secondary-ist Colors */
+    --color-button-secondary-ist-text: var(--button-secondary-ist-text);
+    --color-button-secondary-ist-icon: var(--button-secondary-ist-icon);
+    --color-button-secondary-ist-fill: var(--button-secondary-ist-fill);
+    --color-button-secondary-ist-fill-active: var(--button-secondary-ist-fill-active);
+
+    /* Component Button Ghost-primary Colors */
+    --color-button-ghost-primary-text: var(--button-ghost-primary-text);
+    --color-button-ghost-primary-icon: var(--button-ghost-primary-icon);
+    --color-button-ghost-primary-fill: var(--button-ghost-primary-fill);
+    --color-button-ghost-primary-fill-active: var(--button-ghost-primary-fill-active);
+
+     /* Component Button Ghost-secondary Colors */
+     --color-button-ghost-secondary-text: var(--button-ghost-secondary-text);
+     --color-button-ghost-secondary-icon: var(--button-ghost-secondary-icon);
+     --color-button-ghost-secondary-fill: var(--button-ghost-secondary-fill);
+     --color-button-ghost-secondary-fill-active: var(--button-ghost-secondary-fill-active);
+ 
+     /* Component Button Disabled Colors */
+     --color-button-disabled-text: var(--button-disabled-text);
+     --color-button-disabled-icon: var(--button-disabled-icon);
+     --color-button-disabled-fill: var(--button-disabled-fill);
+ 
+     /* Component Button Disabled-ist Colors */
+     --color-button-disabled-ist-text: var(--button-disabled-ist-text);
+     --color-button-disabled-ist-icon: var(--button-disabled-ist-icon);
+     --color-button-disabled-ist-fill: var(--button-disabled-ist-fill);
+ 
+     /* Component Button Long Colors */
+     --color-button-long-text: var(--button-long-text);
+     --color-button-long-icon: var(--button-long-icon);
+     --color-button-long-fill: var(--button-long-fill);
+     --color-button-long-fill-active: var(--button-long-fill-active);
+ 
+     /* Component Button Short Colors */
+     --color-button-short-text: var(--button-short-text);
+     --color-button-short-icon: var(--button-short-icon);
+     --color-button-short-fill: var(--button-short-fill);
+     --color-button-short-fill-active: var(--button-short-fill-active);
+
+     /* Component Input Colors */
+    --color-input-fill: var(--input-fill);
+    --color-input-fill-disabled: var(--input-fill-disabled);
+    --color-input-border: var(--input-border);
+    --color-input-border-active: var(--input-border-active);
+    --color-input-border-error: var(--input-border-error);
+    --color-input-text-label: var(--input-text-label);
+    --color-input-text-placeholder: var(--input-text-placeholder);
+    --color-input-text-value: var(--input-text-value);
+    --color-input-text-disabled: var(--input-text-disabled);
+
+    /* Component Chart Colors */
+    --color-chart-increase: var(--chart-increase);
+    --color-chart-decrease: var(--chart-decrease);
+    --color-chart-neutral: var(--chart-neutral);
+    --color-chart-open-mark: var(--chart-open-mark);
+
+    /* Component Card Colors */
+    --color-card-fill: var(--card-fill);
+
+    /* Component Card Grad/Wallet Colors */
+    --color-card-grad-wallet-start: var(--card-grad-wallet-start);
+    --color-card-grad-wallet-end: var(--card-grad-wallet-end);
+
+    /* Component Callout Colors */
+    --color-callout-fill: var(--callout-fill);
+
+    /* Component Chip Colors */
+    --color-chip-text: var(--chip-text);
+    --color-chip-fill: var(--chip-fill);
+    --color-chip-border-active: var(--chip-border-active);
+
+    /* Component Popover Colors */
+    --color-popover-fill: var(--popover-fill);
+
+    /* Component Tab Colors */
+    --color-tab-text-inactive: var(--tab-text-inactive);
+    --color-tab-text-active: var(--tab-text-active);
+    --color-tab-indicator-inactive: var(--tab-indicator-inactive);
+    --color-tab-indicator-active: var(--tab-indicator-active);
+
+    /* Component Progress Colors */
+    --color-progress-fill: var(--progress-fill);
+    --color-progress-fill-alpha: var(--progress-fill-alpha);
+    --color-progress-indicator: var(--progress-indicator);
+    --color-progress-indicator-alpha: var(--progress-indicator-alpha);
+
+    /* Component Picker Colors */
+    --color-picker-date-active: var(--picker-date-active);
+
+    /* Component Nav Colors */
+    --color-nav-fill: var(--nav-fill);
+    --color-nav-thumb-fill: var(--nav-thumb-fill);
+    --color-nav-thumb-border: var(--nav-thumb-border);
+    --color-nav-text-inactive: var(--nav-text-inactive);
+    --color-nav-text-active: var(--nav-text-active);
+    --color-nav-icon-inactive: var(--nav-icon-inactive);
+    --color-nav-icon-active: var(--nav-icon-active);
+
+    /* Component Nav / Grad / Fill Colors */
+    --color-nav-grad-fill-bar: var(--nav-grad-fill-bar);
+    --color-nav-grad-fill-start: var(--nav-grad-fill-start);
+    --color-nav-grad-fill-mid: var(--nav-grad-fill-mid);
+    --color-nav-grad-fill-end: var(--nav-grad-fill-end);
+
+    /* Component Nav / Grad / Item Colors */
+    --color-nav-grad-item-start: var(--nav-grad-item-start);
+    --color-nav-grad-item-end: var(--nav-grad-item-end);
+
+    /* Component Sheet Colors */
+    --color-sheet-fill: var(--sheet-fill);
+    --color-sheet-handle: var(--sheet-handle);
+    --color-sheet-stacking: var(--sheet-stacking);
+
+    /* Component Toast Colors */
+    --color-toast-fill: var(--toast-fill);
+
+     /* Component Selection Colors */
+     --color-selection-fill: var(--selection-fill);
+     --color-selection-fill-sta: var(--selection-fill-sta);
+     --color-selection-fill-active: var(--selection-fill-active);
+     --color-selection-border: var(--selection-border);
+     --color-selection-border-sta: var(--selection-border-sta);
+     --color-selection-mark: var(--selection-mark);
+     --color-selection-mark-alt: var(--selection-mark-alt);
+     --color-selection-switch-fill: var(--selection-switch-fill);
+     --color-selection-switch-thumb: var(--selection-switch-thumb);
+ 
+     /* Component Slider Colors */
+     --color-slider-thumb: var(--slider-thumb);
+     --color-slider-fill-inactive: var(--slider-fill-inactive);
+     --color-slider-fill-active: var(--slider-fill-active);
+     --color-slider-tick-mark-inactive: var(--slider-tick-mark-inactive);
+     --color-slider-tick-mark-active: var(--slider-tick-mark-active);
+ 
+     /* Component Thumb Colors */
+     --color-thumb-text: var(--thumb-text);
+     --color-thumb-fill: var(--thumb-fill);
+}
+
+:root {
+    /* Component Avatar - Light & Dark Mode (same colors) */
+    --avatar-fill-gray: #adadad;
+    --avatar-fill-red: #e61e3f;
+    --avatar-fill-orange: #e5902e;
+    --avatar-fill-yellow: #e9b212;
+    --avatar-fill-neon-green: #a0d911;
+    --avatar-fill-green: #23a34a;
+    --avatar-fill-teal: #31b2b2;
+    --avatar-fill-sky-blue: #2d99e1;
+    --avatar-fill-blue: #2d4ccc;
+    --avatar-fill-purple: #722ed1;
+    --avatar-fill-pink: #e54575;
+    --avatar-text: var(--text-primary-sta);
+
+    /* Component Badge - Dark Mode */
+    --badge-fill: var(--yellow-50);
+    --badge-ekyc-fill: var(--blue-50);
+    --badge-shield-fill: var(--green-70);
+    --badge-mark: var(--gray-1);
+    --badge-position-text: var(--black-a70);
+    --badge-position-long: var(--green-10);
+    --badge-position-short: var(--red-10);
+    
+    /* Component Button Primary - Dark Mode */
+    --button-primary-text: var(--gray-100);
+    --button-primary-icon: var(--gray-95);
+    --button-primary-fill: var(--yellow-50);
+    --button-primary-fill-active: var(--yellow-60);
+    
+    /* Component Button Secondary - Dark Mode */
+    --button-secondary-text: var(--text-primary);
+    --button-secondary-icon: var(--icon-primary);
+    --button-secondary-fill: var(--black-a10);
+    --button-secondary-fill-active: var(--black-a20);
+
+    /* Component Button Secondary-sta - Dark Mode */
+    --button-secondary-sta-text: var(--gray-1);
+    --button-secondary-sta-icon: var(--gray-5);
+    --button-secondary-sta-fill: var(--white-a15);
+    --button-secondary-sta-fill-active: var(--white-a5);
+
+    /* Component Button Secondary-inv - Dark Mode */
+    --button-secondary-inv-text: var(--gray-1);
+    --button-secondary-inv-icon: var(--gray-10);
+    --button-secondary-inv-fill: var(--black-a35);
+    --button-secondary-inv-fill-active: var(--black-a20);
+
+    /* Component Button Secondary-ist - Dark Mode */
+    --button-secondary-ist-text: var(--gray-100);
+    --button-secondary-ist-icon: var(--gray-90);
+    --button-secondary-ist-fill: var(--white-a50);
+    --button-secondary-ist-fill-active: var(--white-a25);
+
+    /* Component Button Ghost-primary - Dark Mode */
+    --button-ghost-primary-text: var(--yellow-70);
+    --button-ghost-primary-icon: var(--yellow-60);
+    --button-ghost-primary-fill: var(--black-a0);
+    --button-ghost-primary-fill-active: var(--black-a5);
+
+    /* Component Button Ghost-secondary - Dark Mode */
+    --button-ghost-secondary-text: var(--text-primary);
+    --button-ghost-secondary-icon: var(--icon-primary);
+    --button-ghost-secondary-fill: var(--black-a0);
+    --button-ghost-secondary-fill-active: var(--black-a5);
+
+    /* Component Button Disabled - Dark Mode */
+    --button-disabled-text: var(--text-disabled);
+    --button-disabled-icon: var(--icon-disabled);
+    --button-disabled-fill: var(--black-a10);
+
+    /* Component Button Disabled-ist - Dark Mode */
+    --button-disabled-ist-text: var(--black-a25);
+    --button-disabled-ist-icon: var(--black-a20);
+    --button-disabled-ist-fill: var(--black-a10);
+
+    /* Component Button Long - Dark Mode */
+    --button-long-text: var(--gray-1);
+    --button-long-icon: var(--gray-5);
+    --button-long-fill: var(--green-70);
+    --button-long-fill-active: var(--green-80);
+
+    /* Component Button Short - Dark Mode */
+    --button-short-text: var(--gray-1);
+    --button-short-icon: var(--gray-5);
+    --button-short-fill: var(--red-40);
+    --button-short-fill-active: var(--red-60);
+
+    /* Component Input - Dark Mode */
+    --input-fill: var(--black-a3);
+    --input-fill-disabled: var(--black-a15);
+    --input-border: var(--black-a5);
+    --input-border-active: var(--black-a25);
+    --input-border-error: var(--accent-critical);
+    --input-text-label: var(--text-label);
+    --input-text-placeholder: var(--text-tertiary);
+    --input-text-value: var(--text-primary);
+    --input-text-disabled: var(--text-disabled);
+
+    /* Component Chart - Dark Mode */
+    --chart-increase: var(--green-70);
+    --chart-decrease: var(--red-60);
+    --chart-neutral: var(--gray-10);
+    --chart-open-mark: var(--gray-90);
+
+    /* Component Card - Dark Mode */
+    --card-fill: var(--black-a3);
+
+    /* Component Card Grad/Wallet - Dark Mode */
+    --card-grad-wallet-start: var(--white-a1);
+    --card-grad-wallet-end: var(--white-a90);
+
+    /* Component Callout - Dark Mode */
+    --callout-fill: var(--gray-5);
+
+   /* Component Chip - Dark Mode */
+   --chip-text: var(--gray-100);
+   --chip-fill: var(--black-a10);
+   --chip-border-active: var(--gray-95);
+
+   /* Component Popover - Dark Mode */
+   --popover-fill: var(--white-a100);
+
+   /* Component Tab - Dark Mode */
+   --tab-text-inactive: var(--text-tertiary);
+   --tab-text-active: var(--text-primary);
+   --tab-indicator-inactive: var(--white-a0);
+   --tab-indicator-active: var(--gray-100);
+
+   /* Component Progress - Dark Mode */
+   --progress-fill: var(--black-a10);
+   --progress-fill-alpha: var(--white-a10);
+   --progress-indicator: var(--yellow-60);
+   --progress-indicator-alpha: var(--black-a60);
+
+   /* Component Picker - Dark Mode */
+   --picker-date-active: var(--yellow-10);
+
+   /* Component Nav - Dark Mode */
+   --nav-fill: var(--white-a100);
+   --nav-thumb-fill: var(--yellow-60);
+   --nav-thumb-border: var(--white-a100);
+   --nav-text-inactive: var(--text-secondary);
+   --nav-text-active: var(--yellow-70);
+   --nav-icon-inactive: var(--icon-secondary);
+   --nav-icon-active: var(--yellow-60);
+
+   /* Component Nav / Grad / Fill - Dark Mode */
+   --nav-grad-fill-bar: var(--black-a3);
+   --nav-grad-fill-start: var(--white-a100);
+   --nav-grad-fill-mid: var(--white-a50);
+   --nav-grad-fill-end: var(--white-a0);
+
+   /* Component Nav / Grad / Item - Dark Mode */
+   --nav-grad-item-start: var(--black-a3);
+   --nav-grad-item-end: var(--black-a10);
+
+   /* Component Sheet - Dark Mode */
+   --sheet-fill: var(--white-a100);
+   --sheet-handle: var(--black-a10);
+   --sheet-stacking: var(--gray-10);
+
+   /* Component Toast - Dark Mode */
+   --toast-fill: var(--white-a100);
+
+    /* Component Selection - Dark Mode */
+    --selection-fill: var(--background-alpha);
+    --selection-fill-sta: var(--black-a50);
+    --selection-fill-active: var(--yellow-60);
+    --selection-border: var(--border-alpha);
+    --selection-border-sta: var(--white-a40);
+    --selection-mark: var(--gray-100);
+    --selection-mark-alt: var(--yellow-60);
+    --selection-switch-fill: var(--black-a10);
+    --selection-switch-thumb: var(--white-a100);
+
+    /* Component Slider - Dark Mode */
+    --slider-thumb: var(--yellow-60);
+    --slider-fill-inactive: var(--black-a10);
+    --slider-fill-active: var(--yellow-60);
+    --slider-tick-mark-inactive: var(--black-a15);
+    --slider-tick-mark-active: var(--black-a15);
+
+    /* Component Thumb - Dark Mode */
+    --thumb-text: var(--gray-60);
+    --thumb-fill: var(--white-a100);
+}
+
+.dark {
+    /* Component Avatar - Light & Dark Mode (same colors) */
+    --avatar-fill-gray: #adadad;
+    --avatar-fill-red: #e61e3f;
+    --avatar-fill-orange: #e5902e;
+    --avatar-fill-yellow: #e9b212;
+    --avatar-fill-neon-green: #a0d911;
+    --avatar-fill-green: #23a34a;
+    --avatar-fill-teal: #31b2b2;
+    --avatar-fill-sky-blue: #2d99e1;
+    --avatar-fill-blue: #2d4ccc;
+    --avatar-fill-purple: #722ed1;
+    --avatar-fill-pink: #e54575;
+    --avatar-text: var(--text-primary-sta);
+
+    /* Component Badge */
+    --badge-fill: var(--yellow-50);
+    --badge-ekyc-fill: var(--blue-40);
+    --badge-shield-fill: var(--green-70);
+    --badge-mark: var(--gray-1);
+    --badge-position-text: var(--white-a70);
+    --badge-position-long: var(--green-100);
+    --badge-position-short: var(--red-95);
+    
+    /* Component Button Primary */
+    --button-primary-text: var(--gray-100);
+    --button-primary-icon: var(--gray-95);
+    --button-primary-fill: var(--yellow-50);
+    --button-primary-fill-active: var(--yellow-60);
+    
+    /* Component Button Secondary */
+    --button-secondary-text: var(--text-primary);
+    --button-secondary-icon: var(--icon-primary);
+    --button-secondary-fill: var(--white-a15);
+    --button-secondary-fill-active: var(--white-a5);
+
+    /* Component Button Secondary-sta */
+    --button-secondary-sta-text: var(--gray-1);
+    --button-secondary-sta-icon: var(--gray-5);
+    --button-secondary-sta-fill: var(--white-a15);
+    --button-secondary-sta-fill-active: var(--white-a5);
+
+    /* Component Button Secondary-inv */
+    --button-secondary-inv-text: var(--gray-100);
+    --button-secondary-inv-icon: var(--gray-90);
+    --button-secondary-inv-fill: var(--white-a50);
+    --button-secondary-inv-fill-active: var(--white-a25);
+
+    /* Component Button Secondary-ist */
+    --button-secondary-ist-text: var(--gray-100);
+    --button-secondary-ist-icon: var(--gray-90);
+    --button-secondary-ist-fill: var(--white-a50);
+    --button-secondary-ist-fill-active: var(--white-a25);
+
+    /* Component Button Ghost-primary */
+    --button-ghost-primary-text: var(--yellow-50);
+    --button-ghost-primary-icon: var(--yellow-50);
+    --button-ghost-primary-fill: var(--white-a0);
+    --button-ghost-primary-fill-active: var(--white-a5);
+
+    /* Component Button Ghost-secondary */
+    --button-ghost-secondary-text: var(--text-primary);
+    --button-ghost-secondary-icon: var(--icon-primary);
+    --button-ghost-secondary-fill: var(--white-a0);
+    --button-ghost-secondary-fill-active: var(--white-a5);
+
+    /* Component Button Disabled */
+    --button-disabled-text: var(--text-disabled);
+    --button-disabled-icon: var(--icon-disabled);
+    --button-disabled-fill: var(--white-a10);
+
+    /* Component Button Disabled-ist */
+    --button-disabled-ist-text: var(--black-a25);
+    --button-disabled-ist-icon: var(--black-a20);
+    --button-disabled-ist-fill: var(--black-a10);
+
+    /* Component Button Long */
+    --button-long-text: var(--gray-1);
+    --button-long-icon: var(--gray-5);
+    --button-long-fill: var(--green-70);
+    --button-long-fill-active: var(--green-80);
+
+    /* Component Button Short */
+    --button-short-text: var(--gray-1);
+    --button-short-icon: var(--gray-5);
+    --button-short-fill: var(--red-40);
+    --button-short-fill-active: var(--red-60);
+
+    /* Component Input */
+    --input-fill: var(--white-a5);
+    --input-fill-disabled: var(--white-a10);
+    --input-border: var(--white-a10);
+    --input-border-active: var(--white-a30);
+    --input-border-error: var(--accent-critical);
+    --input-text-label: var(--text-label);
+    --input-text-placeholder: var(--text-tertiary);
+    --input-text-value: var(--text-primary);
+    --input-text-disabled: var(--text-disabled);
+
+    /* Component Chart */
+    --chart-increase: var(--green-70);
+    --chart-decrease: var(--red-60);
+    --chart-neutral: var(--gray-90);
+    --chart-open-mark: var(--gray-90);
+
+    /* Component Card */
+    --card-fill: var(--white-a5);
+
+    /* Component Card Grad/Wallet */
+    --card-grad-wallet-start: var(--white-a1);
+    --card-grad-wallet-end: var(--white-a5);
+
+    /* Component Callout */
+    --callout-fill: var(--gray-90);
+
+    /* Component Chip */
+    --chip-text: var(--gray-1);
+    --chip-fill: var(--white-a10);
+    --chip-border-active: var(--gray-5);
+
+    /* Component Popover */
+    --popover-fill: var(--gray-90);
+
+    /* Component Tab */
+    --tab-text-inactive: var(--text-tertiary);
+    --tab-text-active: var(--text-primary);
+    --tab-indicator-inactive: var(--black-a0);
+    --tab-indicator-active: var(--gray-1);
+
+    /* Component Progress */
+    --progress-fill: var(--white-a10);
+    --progress-fill-alpha: var(--black-a10);
+    --progress-indicator: var(--yellow-50);
+    --progress-indicator-alpha: var(--white-a60);
+
+    /* Component Picker */
+    --picker-date-active: var(--yellow-90);
+
+    /* Component Nav */
+    --nav-fill: var(--gray-95);
+    --nav-thumb-fill: var(--gray-100);
+    --nav-thumb-border: var(--gray-95);
+    --nav-text-inactive: var(--text-secondary);
+    --nav-text-active: var(--yellow-50);
+    --nav-icon-inactive: var(--icon-secondary);
+    --nav-icon-active: var(--yellow-50);
+
+     /* Component Nav / Grad / Fill */
+     --nav-grad-fill-bar: var(--white-a5);
+     --nav-grad-fill-start: #0f0f0f; /* #0F0F0F */
+     --nav-grad-fill-mid: rgba(15, 15, 15, 0.60); /* #0F0F0F - 60% */
+     --nav-grad-fill-end: rgba(15, 15, 15, 0); /* #0F0F0F - 0% */
+ 
+     /* Component Nav / Grad / Item */
+     --nav-grad-item-start: var(--white-a3);
+     --nav-grad-item-end: var(--white-a15);
+ 
+     /* Component Sheet */
+     --sheet-fill: var(--gray-92);
+     --sheet-handle: var(--white-a10);
+     --sheet-stacking: var(--gray-90);
+ 
+     /* Component Toast */
+     --toast-fill: var(--gray-90);
+ 
+    /* Component Selection */
+    --selection-fill: var(--background-alpha);
+    --selection-fill-sta: var(--black-a50);
+    --selection-fill-active: var(--yellow-50);
+    --selection-border: var(--border-alpha);
+    --selection-border-sta: var(--white-a40);
+    --selection-mark: var(--gray-100);
+    --selection-mark-alt: var(--yellow-50);
+    --selection-switch-fill: var(--white-a10);
+    --selection-switch-thumb: var(--white-a100);
+
+    /* Component Slider */
+    --slider-thumb: var(--yellow-50);
+    --slider-fill-inactive: var(--white-a10);
+    --slider-fill-active: var(--yellow-50);
+    --slider-tick-mark-inactive: var(--white-a20);
+    --slider-tick-mark-active: var(--black-a20);
+
+    /* Component Thumb */
+    --thumb-text: var(--gray-1);
+    --thumb-fill: var(--gray-90);
+}
+

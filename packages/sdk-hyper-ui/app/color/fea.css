@@ -1,0 +1,83 @@
+@theme inline {
+    /* Fea Keyicon Colors */
+    --color-keyicon-front: var(--keyicon-front);
+    --color-keyicon-back-gray: var(--keyicon-back-gray);
+    --color-keyicon-back-yellow: var(--keyicon-back-yellow);
+    --color-keyicon-back-green: var(--keyicon-back-green);
+    --color-keyicon-back-orange: var(--keyicon-back-orange);
+    --color-keyicon-back-blue: var(--keyicon-back-blue);
+    --color-keyicon-border: var(--keyicon-border);
+    
+    /* Fea Gradient Colors */
+    --color-grad-start-gray: var(--keyicon-grad-start-gray);
+    --color-grad-start-yellow: var(--keyicon-grad-start-yellow);
+    --color-grad-start-green: var(--keyicon-grad-start-green);
+    --color-grad-start-orange: var(--keyicon-grad-start-orange);
+    --color-grad-start-blue: var(--keyicon-grad-start-blue);
+    --color-grad-end: var(--keyicon-grad-end);
+    
+    /* Fea Chat Colors */
+    --color-chat-bubble-fill: var(--chat-bubble-fill);
+    --color-chat-bubble-self-fill: var(--chat-bubble-self-fill);
+    
+    /* Fea Trading Background Colors */
+    --color-trading-base: var(--trading-background-base);
+    --color-trading-section: var(--trading-background-section);
+    --color-trading-overlay: var(--trading-background-overlay);
+}
+
+.dark {
+    /* Fea Keyicon - Light Mode */
+    --keyicon-front: var(--white-a100);
+    --keyicon-back-gray: var(--gray-50);
+    --keyicon-back-yellow: var(--yellow-50);
+    --keyicon-back-green: var(--green-60);
+    --keyicon-back-orange: var(--orange-60);
+    --keyicon-back-blue: var(--blue-60);
+    --keyicon-border: var(--white-a30);
+    
+    /* Fea Gradient - Light Mode */
+    --keyicon-grad-start-gray: var(--gray-30);
+    --keyicon-grad-start-yellow: var(--yellow-50);
+    --keyicon-grad-start-green: var(--green-80);
+    --keyicon-grad-start-orange: var(--orange-80);
+    --keyicon-grad-start-blue: var(--blue-60);
+    --keyicon-grad-end: var(--white-a30);
+    
+    /* Fea Chat - Light Mode */
+    --chat-bubble-fill: var(--white-a10);
+    --chat-bubble-self-fill: var(--yellow-40);
+    
+    /* Fea Trading Background - Light Mode */
+    --trading-background-base: var(--gray-100);
+    --trading-background-section: #171717;
+    --trading-background-overlay: var(--black-a50);
+}
+
+:root {
+    /* Fea Keyicon - Dark Mode */
+    --keyicon-front: var(--white-a100);
+    --keyicon-back-gray: var(--gray-30);
+    --keyicon-back-yellow: var(--yellow-50);
+    --keyicon-back-green: var(--green-60);
+    --keyicon-back-orange: var(--orange-60);
+    --keyicon-back-blue: var(--blue-60);
+    --keyicon-border: var(--black-a15);
+    
+    /* Fea Gradient - Dark Mode */
+    --keyicon-grad-start-gray: var(--gray-10);
+    --keyicon-grad-start-yellow: var(--yellow-60);
+    --keyicon-grad-start-green: var(--green-60);
+    --keyicon-grad-start-orange: var(--orange-60);
+    --keyicon-grad-start-blue: var(--blue-60);
+    --keyicon-grad-end: var(--white-a70);
+    
+    /* Fea Chat - Dark Mode */
+    --chat-bubble-fill: var(--black-a5);
+    --chat-bubble-self-fill: var(--yellow-20);
+    
+    /* Fea Trading Background - Dark Mode */
+    --trading-background-base: var(--gray-1);
+    --trading-background-section: var(--white-a100);
+    --trading-background-overlay: var(--white-a70);
+}
